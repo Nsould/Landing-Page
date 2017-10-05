@@ -1,0 +1,74 @@
+<style type="text/css">
+  body {
+    position: relative;
+  }
+  #navbarBrand {
+    text-shadow: 1px 1px black;
+  }
+  #titleContainer {
+    padding-top: 100px;
+  }
+  .centeredText {
+    text-align: center;
+  }
+  .jumbotron {
+    background-image: url(./BlackRoyaltyChessPieces.jpeg);
+    height: 600px;
+    padding-top: 200px;
+    font-weight: bold;
+  }
+  .display-3 {
+    color: white;
+    text-shadow: 2px 2px black;
+  }
+  .jumbotronText {
+    color: white;
+    text-shadow: 1px 2px 4px black;
+  }
+  #emailSubmitButton {
+    background-color: #563F7A;
+    box-shadow: 2px 2px 4px #353B40;
+  }
+  #emailSubmit {
+    width: 200px;
+    box-shadow: 2px 2px 4px #353B40;
+  }
+  #emailSubmitFormContainer {
+    display: block;
+    text-align: center;
+  }
+  #emailSubmitForm {
+    display: inline-block;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .lead {
+    width: 60%;
+    margin: 0 auto;
+  }
+  #container1 {
+    padding-top: 30px;
+  }
+  .card {
+    margin-top: 65px;
+    margin-bottom: 50px;
+    width: 20rem;
+  }
+  i {
+    float: left;
+    margin-right: 7px;
+    padding-top: 6px;
+  }
+  #footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+  }
+  #alexaIcon {
+    height: 12%;
+    width: 12%;
+    margin-top: 7px;
+  }
+</style>

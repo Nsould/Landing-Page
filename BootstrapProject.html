@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+
+    <link rel="stylesheet" href="./BootstrapProjectCSS.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+  </head>
+
+  <body data-spy="scroll" data-target="#appNavbar" data-offset="100">
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <span class="navbar-brand" id="navbarBrand">For The Culture</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appNavbar" aria-controls="appNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="appNavbar">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#download">Download #FTC</a>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+          <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="email" placeholder="Email" aria-label="Email"></input>
+              <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password"></input>
+              <button class="btn btn-dark btn-outline-light my-2 my-sm-0" type="submit">Login</button>
+          </form>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    <!-- Start Jumbotron -->
+    <div class="jumbotron" style="margin-top: 50px" id="home">
+      <div id="titleContainer">
+        <h1 class="display-3 centeredText">For The Culture</h2>
+        <p class="lead centeredText jumbotronText">Are you a person of color who's in need of a pick-me-up during these crazy times? This Alexa skill is for you!</p>
+      </div>
+      <hr class="my-2"></hr>
+      <p class="centeredText jumbotronText" style="margin-top: 50px">Want to learn more about #FTC? Join our mailing list!</p>
+      <div class="container" id="emailSubmitFormContainer">
+        <form class="form-inline my-2 my-lg-0" id="emailSubmitForm">
+          <input class="form-control" type="email" placeholder="Email" aria-label="Email" id=emailSubmit></input>
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="emailSubmitButton">Sign Up!</button>
+        </form>
+      </div>
+    </div>
+    <!-- End of Jumbotron -->
+    <!-- Start About Me Section -->
+    <div class="container" id="about">
+      <div id="container1">
+        <h1 class="centeredText">You Need This In Your Life</h1>
+        <p class="lead centeredText">If you own an Amazon Echo, why not let The Culture bless your day?</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card-deck">
+
+              <div class="card">
+                  <img class="card-img-top" src="https://static.pexels.com/photos/157907/smile-color-laugh-black-157907.jpeg" atl="card image cap"/>
+                  <div class="card-body">
+                      <i class="fa fa-magic fa-lg" aria-hidden="true"></i><h4 class="card-title">Feelin' Fleeky?</h4>
+                      <p class="card-text">For when you're on cloud nine and you think the day couldn't possibly get any better. Think again!</p>
+                  </div>
+              </div>
+
+
+              <div class="card">
+                  <img class="card-img-top" src="https://static.pexels.com/photos/9687/pexels-photo.jpg" atl="card image cap"/>
+                  <div class="card-body">
+                      <i class="fa fa-battery-quarter fa-lg" aria-hidden="true"></i><h4 class="card-title">Need a Boost?</h4>
+                      <p class="card-text">If the world's got you down, The Culture can pick you up. #MedicateYourMentality</p>
+                  </div>
+              </div>
+
+
+              <div class="card">
+                  <img class="card-img-top" src="https://static.pexels.com/photos/545062/pexels-photo-545062.jpeg" style="height: 56%" atl="card image cap"/>
+                  <div class="card-body">
+                      <i class="fa fa-book fa-lg" aria-hidden="true"></i><h4 class="card-title">Wanna Learn?</h4>
+                      <p class="card-text">For when you need a dose of some actual truth in this time when alternative facts reign. We got you.</p>
+                  </div>
+              </div>
+          </div>
+
+    </div>
+    <!-- End of About Me -->
+    <!-- Start Download Section -->
+    <div class="containter" id="download">
+        <div id="footer">
+            <h3>Download this skill!</h3>
+            <p class="lead">Why? Read &amp; find out.</p>
+            <a href="http://www.amazon.com"><img src="http://cdn.downdetector.com/static/images/amazon_alexa_badge.png" id="alexaIcon" alt="Alexa Skill Icon"/></a>
+        </div>
+    </div>
+    <!-- End of Download -->
+    <!-- Script CDNs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/145c4ffac7.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+  </body>
+</html>
